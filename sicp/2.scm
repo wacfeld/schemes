@@ -360,5 +360,30 @@
 (define (sumton n)
   (accumulate append nil (map permutations (filter (lambda (a) (= (+ (car a) (cadr a) (caddr a)) n)) (triples n)))))
 
+;2.54
+(define (myequal? a b)
+  (if (or (not (pair? a)) (not (pair? b)))
+    (eq? a b)
+    (and
+      (eq? (car a) (car b))
+      (myequal? (cdr a) (cdr b)))))
 
+; tree to list 2, exercise 2.63
 
+(define left cadr)
+(define right caddr)
+(define val car)
+
+(define (tl2 tree acc)
+  (cond
+    ((null? tree) acc)
+    (else
+      (tl2 (left tree) (cons (val tree) (tl2 (right tree) acc))))))
+
+; list to tree
+;; (define (lt lst len)
+;;   (cond
+;;     ((null? l) '())
+;;     ((zero? len) '())
+;;     (else
+;;       (list (lt lst (/ (- len 1) 2))

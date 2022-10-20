@@ -1,0 +1,12 @@
+a*n + b*(m%n) = gcd
+
+m%n = m - (m//n)n
+
+a*n + b*(m - m//n*n) = gcd
+
+a*n - b*m//n*n + b*m = gcd
+
+p = b
+q = a - b*m//n
+
+p*m + q*n = gcd

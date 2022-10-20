@@ -1,0 +1,350 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	sicp/2.scm	/^(define A '(99.9 . 100.1))$/;"	f
+B	sicp/2.scm	/^(define B '(89.9 . 90.1))$/;"	f
+P	scmstream.scm	/^(define (P str)$/;"	f
+Q	scmstream.scm	/^(define (Q str n)$/;"	f
+X	quine.scm	/^(define X '(#\\) #\\) #\\  #\\( #\\d #\\i #\\s #\\p #\\l #\\a #\\y #\\  #\\" #\\( #\\d #\\e #\\f #\\i #\\n #\\e #\\  #\\X #\\  #\\' #\\( #\\" #\\) #\\  #\\( #\\l #\\e #\\t #\\  #\\f #\\  #\\( #\\( #\\x #\\  #\\X #\\) #\\) #\\  #\\( #\\c #\\o #\\n #\\d #\\  #\\( #\\( #\\n #\\u #\\l #\\l #\\? #\\  #\\x #\\) #\\  #\\1 #\\) #\\  #\\( #\\e #\\l #\\s #\\e #\\  #\\( #\\d #\\i #\\s #\\p #\\l #\\a #\\y #\\  #\\" #\\# #\\\\ #\\\\ #\\" #\\) #\\  #\\( #\\d #\\i #\\s #\\p #\\l #\\a #\\y #\\  #\\( #\\c #\\a #\\r #\\  #\\x #\\) #\\) #\\  #\\( #\\d #\\i #\\s #\\p #\\l #\\a #\\y #\\  #\\" #\\  #\\" #\\) #\\  #\\( #\\f #\\  #\\( #\\c #\\d #\\r #\\  #\\x #\\) #\\) #\\) #\\) #\\) #\\  #\\( #\\l #\\e #\\t #\\  #\\g #\\  #\\( #\\( #\\x #\\  #\\X #\\) #\\) #\\  #\\( #\\c #\\o #\\n #\\d #\\  #\\( #\\( #\\n #\\u #\\l #\\l #\\? #\\  #\\x #\\) #\\  #\\1 #\\) #\\  #\\( #\\e #\\l #\\s #\\e #\\  #\\( #\\d #\\i #\\s #\\p #\\l #\\a #\\y #\\  #\\( #\\c #\\a #\\r #\\  #\\x #\\) #\\) #\\  #\\( #\\g #\\  #\\( #\\c #\\d #\\r #\\  #\\x #\\) #\\) #\\) #\\) #\\) #\\  #\\; #\\  #\\b #\\r #\\o #\\  #\\y #\\e #\\s )) (display "(define X '(") (let f ((x X)) (cond ((null? x) 1) (else (display "#\\\\") (display (car x)) (display " ") (f (cdr x))))) (let g ((x X)) (cond ((null? x) 1) (else (display (car x)) (g (cdr x))))) ; bro yes$/;"	f
+a	shamir.scm	/^(define a (augval r k))$/;"	f
+accel	stream.py	/^def accel(nxt):$/;"	f
+accumulate	sicp/1_3_1.scm	/^(define (accumulate combiner null-value term a next b)$/;"	f
+accumulate	sicp/2.scm	/^(define (accumulate op initial sequence)$/;"	f
+accumulate-n	sicp/2.scm	/^(define (accumulate-n op init seqs)$/;"	f
+add	sicp/2.scm	/^(define (add m n)$/;"	f
+add-1	sicp/2.scm	/^(define (add-1 n)$/;"	f
+add-interval	sicp/2.scm	/^(define (add-interval x y)$/;"	f
+add-prop!	sicp/constraint.scm	/^(define (add-prop! con prop)$/;"	f
+add1lst	map.scm	/^(define (add1lst lst)$/;"	f
+adder	sicp/constraint.scm	/^(define (adder a b c)$/;"	f
+addrow	rowreduce.scm	/^(define (addrow m i j)$/;"	f
+atom?	schemer.scm	/^(define atom? (lambda (x)$/;"	f
+augval	shamir.scm	/^(define (augval m k)$/;"	f
+average	sicp/1_3_3.scm	/^(define (average a b) (\/ (+ a b) 2))$/;"	f
+average	sicp/1_3_4.scm	/^(define (average a b) (\/ (+ a b) 2))$/;"	f
+average	sicp/2.scm	/^(define (average a b) (\/ (+ a b) 2))$/;"	f
+average-damp	sicp/1_3_3.scm	/^(define (average-damp f)$/;"	f
+average-damp	sicp/1_3_4.scm	/^(define (average-damp f)$/;"	f
+backforth	backforth.scm	/^(define (backforth n)$/;"	f
+balanced?	sicp/2.scm	/^(define (balanced? mob)$/;"	f
+bcp	sicp/3.scm	/^(define (bcp x)$/;"	f
+botterm	sicp/1_3_1.scm	/^(define (botterm n)$/;"	f
+branch-length	sicp/2.scm	/^(define branch-length car)$/;"	f
+branch-structure	sicp/2.scm	/^(define branch-structure cdr)$/;"	f
+c	sicp/constraint.scm	/^(define c (make-connector))$/;"	f
+c2?	sicp/3.scm	/^(define (c2? l)$/;"	f
+cc	sicp/2.scm	/^(define (cc amount coin-values)$/;"	f
+center	sicp/2.scm	/^(define (center i)$/;"	f
+clean	rowreduce.scm	/^(define (clean m r1 r2)$/;"	f
+close-enough?	sicp/1_3_4.scm	/^(define (close-enough? v1 v2)$/;"	f
+colclean	rowreduce.scm	/^(define (colclean m i)$/;"	f
+coliso	rowreduce.scm	/^(define (coliso m i)$/;"	f
+comp	sicp/1_3_4.scm	/^(define (comp x n) (lambda (y) (\/ x (expt y (- n 1)))))$/;"	f
+compose	sicp/1_3_4.scm	/^(define (compose f g) (lambda (x) (f (g x))))$/;"	f
+compose	sicp/sicp1_2_6.scm	/^(define (compose f g)$/;"	f
+const?	sicp/constraint.scm	/^(define (const? connect)$/;"	f
+constant	sicp/constraint.scm	/^(define (constant const connect)$/;"	f
+cont-frac	sicp/1_3_3.scm	/^(define (cont-frac n d k)$/;"	f
+count-change	sicp/2.scm	/^(define (count-change amount) (cc amount 5))$/;"	f
+count-leaves	sicp/2.scm	/^(define (count-leaves t)$/;"	f
+cube	sicp/1_3_1.scm	/^(define (cube n) (* n n n))$/;"	f
+cube	sicp/1_3_4.scm	/^(define (cube x) (* x x x))$/;"	f
+cubic	sicp/1_3_4.scm	/^(define (cubic a b c)$/;"	f
+cycle?	sicp/3.scm	/^(define (cycle? l acc)$/;"	f
+d	shamir.scm	/^(define d (distribute p n))$/;"	f
+dbd_s	stream.py	/^dbd_s = make_s(0, next_dbd)$/;"	v
+deep-reverse	sicp/2.scm	/^(define (deep-reverse l)$/;"	f
+delq!	lightweightprocess.scm	/^(define delq!$/;"	f
+delq!	queue.scm	/^(define delq!$/;"	f
+deriv	sicp/1_3_4.scm	/^(define (deriv g)$/;"	f
+distribute	shamir.scm	/^(define (distribute p n)$/;"	f
+div	sicp/constraint.scm	/^(define (div a b sym)$/;"	f
+div-interval	sicp/2.scm	/^(define (div-interval x y)$/;"	f
+div_by_5	stream.py	/^div_by_5 = lambda x: divisible(x, 5) # special case of this function (example of 'currying', you reduce the number of paramaters a function takes by making it constant)$/;"	v
+div_by_any	stream.py	/^div_by_any = lambda x, l: any([divisible(x, d) for d in l]) # we use 'list comprehension' (a cool python feature) to check if every element of l divides x$/;"	v
+div_by_divs	stream.py	/^div_by_divs = lambda x: div_by_any(x, divs) # currying again$/;"	v
+div_s	stream.py	/^div_s = make_s(0, next_div)$/;"	v
+divides?	sicp/1_3_1.scm	/^(define (divides? a b) (= (remainder b a) 0))$/;"	f
+divides?	sicp/2.scm	/^(define (divides? a b) (= (remainder b a) 0))$/;"	f
+divides?	sicp/sicp1_2_6.scm	/^(define (divides? a b) (= (remainder b a) 0))$/;"	f
+divides?	test.scm	/^(define (divides? a b) (= (remainder b a) 0))$/;"	f
+divs	stream.py	/^divs = [2,3]$/;"	v
+dofun	map.scm	/^(define (dofun f n)$/;"	f
+dot-product	sicp/2.scm	/^(define (dot-product v w)$/;"	f
+double	sicp/1_3_4.scm	/^(define (double f) (lambda (x) (f (f x))))$/;"	f
+dx	sicp/1_3_4.scm	/^(define dx 0.00000001)$/;"	f
+empty?	lightweightprocess.scm	/^(define empty?$/;"	f
+encode	shamir.scm	/^(define (encode secret k)$/;"	f
+end-segment	sicp/2.scm	/^(define end-segment cdr)$/;"	f
+enumerate-interval	sicp/2.scm	/^(define (enumerate-interval low high)$/;"	f
+eqmem?	sicp/3.scm	/^(define (eqmem? x l)$/;"	f
+euclid	euclid.scm	/^(define (euclid m n)$/;"	f
+eulnd	sicp/1_3_3.scm	/^(define (eulnd n)$/;"	f
+eval-poly	shamir.scm	/^(define (eval-poly p x)$/;"	f
+except-first-denomination	sicp/2.scm	/^(define except-first-denomination cdr)$/;"	f
+expmod	sicp/sicp1_2_6.scm	/^(define (expmod base exp m)$/;"	f
+expmod	test.scm	/^(define (expmod base exp m)$/;"	f
+ext-euclid	euclid.scm	/^(define (ext-euclid m n)$/;"	f
+f	sicp/constraint.scm	/^(define f (make-connector))$/;"	f
+facc	sicp/1_3_1.scm	/^(define (facc comb nullv term a next b filter)$/;"	f
+fall	schemer.scm	/^(define-syntax fall$/;"	f
+fast-expt	sicp/sicp.scm	/^(define (fast-expt b n a)$/;"	f
+fast-mult	sicp/sicp.scm	/^(define (fast-mult b n)$/;"	f
+fast-prime?	sicp/sicp1_2_6.scm	/^(define (fast-prime? n times)$/;"	f
+fast-prime?	test.scm	/^(define (fast-prime? n times)$/;"	f
+fermat-test	sicp/sicp1_2_6.scm	/^(define (fermat-test n)$/;"	f
+fermat-test	test.scm	/^(define (fermat-test n)$/;"	f
+fib	sicp/sicp.scm	/^(define (fib n)$/;"	f
+fib-iter	sicp/sicp.scm	/^(define (fib-iter a b p q count)$/;"	f
+find-divisor	sicp/1_3_1.scm	/^(define (find-divisor n test-divisor)$/;"	f
+find-divisor	sicp/2.scm	/^(define (find-divisor n test-divisor)$/;"	f
+find-divisor	sicp/sicp1_2_6.scm	/^(define (find-divisor n test-divisor)$/;"	f
+find-divisor	test.scm	/^(define (find-divisor n test-divisor)$/;"	f
+first-denomination	sicp/2.scm	/^(define first-denomination car)$/;"	f
+first-n	shamir.scm	/^(define (first-n l n)$/;"	f
+fixed-point	sicp/1_3_3.scm	/^(define (fixed-point f first-guess)$/;"	f
+fixed-point	sicp/1_3_4.scm	/^(define (fixed-point f first-guess)$/;"	f
+flatmap	sicp/2.scm	/^(define (flatmap proc seq)$/;"	f
+forget-value!	sicp/constraint.scm	/^(define (forget-value! con)$/;"	f
+fpot	sicp/1_3_4.scm	/^(define (fpot g transform guess)$/;"	f
+fringe	sicp/2.scm	/^(define (fringe l)$/;"	f
+frontier	scmstream.scm	/^(define (frontier str n)$/;"	f
+fullsolve	shamir.scm	/^(define (fullsolve points)$/;"	f
+gcd-best	gcd.scm	/^(define (gcd-best a b)$/;"	f
+gcd-bester	gcd.scm	/^(define (gcd-bester a b)$/;"	f
+gcd-eu	gcd.scm	/^(define (gcd-eu a b)$/;"	f
+gcda	gcd.scm	/^(define (gcda a b)$/;"	f
+gcdd	gcd.scm	/^(define (gcdd a b acc1 acc2)$/;"	f
+gcp	sicp/3.scm	/^(define gcp$/;"	f
+get-props	sicp/constraint.scm	/^(define (get-props con)$/;"	f
+get-value	sicp/constraint.scm	/^(define (get-value con)$/;"	f
+getdiag	rowreduce.scm	/^(define (getdiag m i)$/;"	f
+getelem	rowreduce.scm	/^(define (getelem m i j)$/;"	f
+getq	lightweightprocess.scm	/^(define getq$/;"	f
+getq	queue.scm	/^(define getq$/;"	f
+getrow	rowreduce.scm	/^(define (getrow m i)$/;"	f
+help	listp.scm	/^(define help$/;"	f
+horner-eval	sicp/2.scm	/^(define (horner-eval x coefficient-sequence)$/;"	f
+ident	sicp/1_3_1.scm	/^(define (ident x) x)$/;"	f
+index	backforth.scm	/^(define (index lst n)$/;"	f
+insort	qsort.scm	/^(define insort$/;"	f
+integral	sicp/1_3_1.scm	/^(define (integral f a b dx)$/;"	f
+is_psquare	stream.py	/^is_psquare = lambda x: floor(sqrt(x))**2 == x$/;"	v
+iter-imp	sicp/1_3_4.scm	/^(define (iter-imp good? improve)$/;"	f
+k	shamir.scm	/^(define k (length msg) )$/;"	f
+l?	listp.scm	/^(define l?$/;"	f
+last-pair	sicp/2.scm	/^(define (last-pair l)$/;"	f
+left	sicp/2.scm	/^(define left cadr)$/;"	f
+left-branch	sicp/2.scm	/^(define left-branch car)$/;"	f
+letcc	schemer.scm	/^(define-syntax letcc$/;"	f
+lhs	shamir.scm	/^(define (lhs k x)$/;"	f
+log2	sicp/1_3_4.scm	/^(define (log2 x) (\/ (log x) (log 2)))$/;"	f
+lower-bound	sicp/2.scm	/^(define lower-bound car)$/;"	f
+lwp	lightweightprocess.scm	/^(define lwp$/;"	f
+lwp-queue	lightweightprocess.scm	/^(define lwp-queue (make-queue))$/;"	f
+m	shamir.scm	/^(define m (mat k (oneto k) d))$/;"	f
+make-branch	sicp/2.scm	/^(define (make-branch length structure)$/;"	f
+make-center-percent	sicp/2.scm	/^(define (make-center-percent c p)$/;"	f
+make-center-width	sicp/2.scm	/^(define (make-center-width c w)$/;"	f
+make-connector	sicp/constraint.scm	/^(define (make-connector)$/;"	f
+make-interval	sicp/2.scm	/^(define make-interval cons)$/;"	f
+make-mobile	sicp/2.scm	/^(define (make-mobile left right) (cons left right))$/;"	f
+make-mobile	sicp/2.scm	/^(define (make-mobile left right)$/;"	f
+make-pair	sicp/2.scm	/^(define (make-pair a b)$/;"	f
+make-pair-sum	sicp/2.scm	/^(define (make-pair-sum pair)$/;"	f
+make-point	sicp/2.scm	/^(define make-point cons)$/;"	f
+make-queue	lightweightprocess.scm	/^(define make-queue$/;"	f
+make-queue	queue.scm	/^(define make-queue$/;"	f
+make-rat	sicp/2.scm	/^(define (make-rat n d)$/;"	f
+make-segment	sicp/2.scm	/^(define make-segment cons)$/;"	f
+make-stack	lightweightprocess.scm	/^(define make-stack$/;"	f
+make_ds	stream.py	/^def make_ds(n, next, nextmod):$/;"	f
+make_nds	stream.py	/^def make_nds(n, test, testmod):$/;"	f
+make_next	stream.py	/^def make_next(test):$/;"	f
+make_s	stream.py	/^def make_s(n, next):$/;"	f
+mat	rowreduce.scm	/^(define mat$/;"	f
+mat	shamir.scm	/^(define (mat k exes whys)$/;"	f
+matrix-*-matrix	sicp/2.scm	/^(define (matrix-*-matrix m n)$/;"	f
+matrix-*-vector	sicp/2.scm	/^(define (matrix-*-vector m v)$/;"	f
+median	backforth.scm	/^(define (median sl)$/;"	f
+midpoint-segment	sicp/2.scm	/^(define (midpoint-segment p q)$/;"	f
+mklstfun	map.scm	/^(define (mklstfun f)$/;"	f
+msg	shamir.scm	/^(define msg '(1 4 6 5 6 4 0))$/;"	f
+mul-interval	sicp/2.scm	/^(define (mul-interval x y)$/;"	f
+mul2lst	map.scm	/^(define (mul2lst lst)$/;"	f
+mulrow	rowreduce.scm	/^(define (mulrow m i c)$/;"	f
+multiplier	sicp/constraint.scm	/^(define (multiplier a b c)$/;"	f
+multirember	schemer.scm	/^(define multirember$/;"	f
+myappend	sicp/2.scm	/^(define (myappend s1 s2)$/;"	f
+mycar	sicp/2.scm	/^(define (mycar p)$/;"	f
+mycdr	sicp/2.scm	/^(define (mycdr p)$/;"	f
+myequal?	sicp/2.scm	/^(define (myequal? a b)$/;"	f
+myforeach	sicp/2.scm	/^(define (myforeach f l)$/;"	f
+myint	scmstream.scm	/^(define myint (strmake 1+ 0))$/;"	f
+mylength	sicp/2.scm	/^(define (mylength l)$/;"	f
+mylist	qsort.scm	/^(define mylist '(49 50 27 90 48 93 52 36 51 25 11 12 46 98 8 28 9 6 74 78 72 53 31 82 39 7 99 60 92 26 34 3 61 81 62 73 100 37 58 56 89 59 33 76 87 16 40 97 13 85 29 32 44 41 10 54 70 75 95 65 22 14 57 91 88 30 84 86 94 1 64 83 80 68 20 43 96 21 77 2 55 17 15 69 42 45 63 47 19 18 79 24 35 66 38 5 4 71 67 23))$/;"	f
+myloop	qsort.scm	/^(define myloop$/;"	f
+mymap	map.scm	/^(define (mymap f lst)$/;"	f
+mymap	sicp/2.scm	/^(define (mymap p sequence)$/;"	f
+mymin	qsort.scm	/^(define mymin$/;"	f
+myrev	sicp/2.scm	/^(define (myrev seq)$/;"	f
+myrev2	sicp/2.scm	/^(define (myrev2 seq)$/;"	f
+n	shamir.scm	/^(define n (- (* 2 k) 1))$/;"	f
+n	sicp/1_3_1.scm	/^(define n 10)$/;"	f
+n	sicp/1_3_4.scm	/^(define n 58)$/;"	f
+nat_s	stream.py	/^nat_s = make_s(0, next_nat)$/;"	v
+ndbd_s	stream.py	/^ndbd_s = make_s(0, next_ndbd)$/;"	v
+newfp	sicp/1_3_4.scm	/^(define (newfp f first) ((iter-imp (lambda (x) (close-enough? x (f x))) f) first))$/;"	f
+newsqrt	sicp/1_3_4.scm	/^(define (newsqrt x) ((iter-imp (lambda (guess) (close-enough? (* guess guess) x)) (lambda (guess) (average guess (\/ x guess)))) 1))$/;"	f
+newton-transform	sicp/1_3_4.scm	/^(define (newton-transform g)$/;"	f
+newtons-method	sicp/1_3_4.scm	/^(define (newtons-method g guess)$/;"	f
+next	lightweightprocess.scm	/^(define next$/;"	f
+next	primes.scm	/^(define next (lambda (s) ((cdr s))))$/;"	f
+next	sicp/sicp1_2_6.scm	/^(define (next n) (if (= n 2) 3 (+ n 2)))$/;"	f
+next	test.scm	/^(define (next n) (if (= n 2) 3 (+ n 2)))$/;"	f
+next_dbd	stream.py	/^next_dbd = make_next(div_by_divs)$/;"	v
+next_div	stream.py	/^next_div = make_next(div_by_5)$/;"	v
+next_nat	stream.py	/^next_nat = lambda x: x+1$/;"	v
+next_ndbd	stream.py	/^next_ndbd = make_next(not_dbd)$/;"	v
+next_psquare	stream.py	/^def next_psquare(n):$/;"	f
+next_psquare2	stream.py	/^next_psquare2 = make_next(is_psquare)$/;"	v
+nil	sicp/2.scm	/^(define nil ())$/;"	f
+no-more?	sicp/2.scm	/^(define no-more? null?)$/;"	f
+non0row	rowreduce.scm	/^(define (non0row m i j)$/;"	f
+norm	rowreduce.scm	/^(define (norm m i)$/;"	f
+not_dbd	stream.py	/^not_dbd = lambda x: not div_by_any(x, divs)$/;"	v
+now	primes.scm	/^(define now (lambda (s) ((car s))))$/;"	f
+nroot	sicp/1_3_4.scm	/^(define (nroot n) (fpot (comp x n) (repeated average-damp (numrep n)) 1))$/;"	f
+ntsqrt?	sicp/sicp1_2_6.scm	/^(define (ntsqrt? base sq n)$/;"	f
+numcol	rowreduce.scm	/^(define (numcol m)$/;"	f
+numrep	sicp/1_3_4.scm	/^(define (numrep n) (floor (log2 n)))$/;"	f
+numrow	rowreduce.scm	/^(define numrow length)$/;"	f
+nundiv	primes.scm	/^(define nundiv$/;"	f
+nxt	stream.py	/^    def nxt(n):$/;"	f	function:make_next
+one	sicp/2.scm	/^(define one (lambda (f) (lambda (x) (f x))))$/;"	f
+oneto	shamir.scm	/^(define (oneto k)$/;"	f
+p	shamir.scm	/^(define p msg)$/;"	f
+par1	sicp/2.scm	/^(define (par1 r1 r2)$/;"	f
+par2	sicp/2.scm	/^(define (par2 r1 r2)$/;"	f
+parab_s	stream.py	/^parab_s = make_ds(0, next_nat, accel)$/;"	v
+part	qsort.scm	/^(define part$/;"	f
+pause	lightweightprocess.scm	/^(define pause$/;"	f
+percent	sicp/2.scm	/^(define (percent x) (\/ (width x) (center x)))$/;"	f
+permutations	sicp/2.scm	/^(define (permutations s)$/;"	f
+permute	backforth.scm	/^(define (permute lst perm)$/;"	f
+pi/4	sicp/1_3_1.scm	/^(define (pi\/4 n)$/;"	f
+pointmat	shamir.scm	/^(define (pointmat k points)$/;"	f
+points	shamir.scm	/^(define points (map cons (oneto n) d))$/;"	f
+prime-sum-pairs	sicp/2.scm	/^(define (prime-sum-pairs n)$/;"	f
+prime-sum?	sicp/2.scm	/^(define (prime-sum? pair)$/;"	f
+prime?	sicp/1_3_1.scm	/^(define (prime? n)$/;"	f
+prime?	sicp/2.scm	/^(define (prime? n)$/;"	f
+prime?	sicp/sicp1_2_6.scm	/^(define (prime? n)$/;"	f
+prime?	test.scm	/^(define (prime? n)$/;"	f
+prime_s	stream.py	/^prime_s = make_nds(2, test_prime, test_add)$/;"	v
+print-int	sicp/2.scm	/^(define (print-int x)$/;"	f
+print-point	sicp/2.scm	/^(define (print-point p)$/;"	f
+probe	sicp/constraint.scm	/^(define (probe connect)$/;"	f
+prod	sicp/1_3_1.scm	/^(define (prod term a next b)$/;"	f
+prod2	sicp/1_3_1.scm	/^(define (prod2 term a next b)$/;"	f
+prompt	io.scm	/^(define (prompt s)$/;"	f
+psquare_s	stream.py	/^psquare_s = make_s(0, next_psquare)$/;"	v
+psquare_s2	stream.py	/^psquare_s2 = make_s(0, next_psquare2)$/;"	v
+putq!	lightweightprocess.scm	/^(define putq!$/;"	f
+putq!	queue.scm	/^(define putq!$/;"	f
+qsort	qsort.scm	/^(define qsort$/;"	f
+quit	lightweightprocess.scm	/^(define quit$/;"	f
+quit-k	lightweightprocess.scm	/^(define quit-k #f)$/;"	f
+r	shamir.scm	/^(define r (rowred m))$/;"	f
+r	sicp/1_3_4.scm	/^(define r 4)$/;"	f
+randlim	shamir.scm	/^(define randlim 5)$/;"	f
+relprime?	sicp/1_3_1.scm	/^(define (relprime? a)$/;"	f
+rem	qsort.scm	/^(define rem$/;"	f
+remove	sicp/2.scm	/^(define (remove item sequence)$/;"	f
+repeated	sicp/1_3_4.scm	/^(define (repeated f n)$/;"	f
+report-prime	sicp/sicp1_2_6.scm	/^(define (report-prime elapsed-time)$/;"	f
+report-prime	test.scm	/^(define (report-prime elapsed-time)$/;"	f
+res2	sicp/1_3_4.scm	/^(define res2 (nroot n))$/;"	f
+rev	sicp/2.scm	/^(define (rev l)$/;"	f
+right	sicp/2.scm	/^(define right caddr)$/;"	f
+right-branch	sicp/2.scm	/^(define right-branch cdr)$/;"	f
+rm	schemer.scm	/^(define rm$/;"	f
+rm2	schemer.scm	/^(define rm2$/;"	f
+rowred	rowreduce.scm	/^(define (rowred m)$/;"	f
+same-parity	sicp/2.scm	/^(define (same-parity w . z)$/;"	f
+say	io.scm	/^(define (say x)$/;"	f
+search-for-primes	sicp/sicp1_2_6.scm	/^(define (search-for-primes fr to) (if (> fr to) 1 (begin (timed-prime-test fr) (search-for-primes (+ fr 1) to))))$/;"	f
+search-for-primes	test.scm	/^(define (search-for-primes fr to) (if (> fr to) 1 (begin (timed-prime-test fr) (search-for-primes (+ fr 1) to))))$/;"	f
+set-value!	sicp/constraint.scm	/^(define (set-value! con val before)$/;"	f
+setrow	rowreduce.scm	/^(define (setrow m i r)$/;"	f
+simpson	sicp/1_3_1.scm	/^(define (simpson f a b n)$/;"	f
+slow-expt	sicp/sicp.scm	/^(define (slow-expt b n a)$/;"	f
+smallest-divisor	sicp/1_3_1.scm	/^(define (smallest-divisor n) (find-divisor n 2))$/;"	f
+smallest-divisor	sicp/2.scm	/^(define (smallest-divisor n) (find-divisor n 2))$/;"	f
+smallest-divisor	sicp/sicp1_2_6.scm	/^(define (smallest-divisor n) (find-divisor n 2))$/;"	f
+smallest-divisor	test.scm	/^(define (smallest-divisor n) (find-divisor n 2))$/;"	f
+smooth	sicp/1_3_4.scm	/^(define (smooth f)$/;"	f
+sop	schemer.scm	/^(define (sop tup acc)$/;"	f
+sort2	qsort.scm	/^(define sort2$/;"	f
+square	sicp/1_3_1.scm	/^(define (square x) (* x x))$/;"	f
+square	sicp/2.scm	/^(define (square x) (* x x))$/;"	f
+square-list	sicp/2.scm	/^(define (square-list items)$/;"	f
+square-list2	sicp/2.scm	/^(define (square-list2 items)$/;"	f
+square-tree	sicp/2.scm	/^(define (square-tree t) (tree-map square t))$/;"	f
+stacktrace	lightweightprocess.scm	/^(define stacktrace (make-stack))$/;"	f
+start	lightweightprocess.scm	/^(define start$/;"	f
+start-prime-test	sicp/sicp1_2_6.scm	/^(define (start-prime-test n start-time)$/;"	f
+start-prime-test	test.scm	/^(define (start-prime-test n start-time)$/;"	f
+start-segment	sicp/2.scm	/^(define start-segment car)$/;"	f
+str	primes.scm	/^(define str$/;"	f
+strmake	scmstream.scm	/^(define (strmake next n)$/;"	f
+sub-interval	sicp/2.scm	/^(define (sub-interval x y)$/;"	f
+subsets	sicp/2.scm	/^(define (subsets s)$/;"	f
+sum	sicp/1_3_1.scm	/^(define (sum term a next b)$/;"	f
+sum-iter	sicp/1_3_1.scm	/^(define (sum-iter term a next b) $/;"	f
+sum2	sicp/1_3_1.scm	/^(define (sum2 term a next b)$/;"	f
+sumton	sicp/2.scm	/^(define (sumton n)$/;"	f
+swaprow	rowreduce.scm	/^(define (swaprow m i j)$/;"	f
+tan-cf	sicp/1_3_3.scm	/^(define (tan-cf x k)$/;"	f
+test-all	sicp/sicp1_2_6.scm	/^(define (test-all n a)$/;"	f
+test_add	stream.py	/^def test_add(test, n): # however it gets more strict as we find more primes$/;"	f
+test_prime	stream.py	/^test_prime = lambda x: not divisible(x, 2) # the sieve at the start is very generous$/;"	v
+testmod	sicp/sicp1_2_6.scm	/^(define (testmod n a)$/;"	f
+thing	sicp/1_3_3.scm	/^(define (thing x) (\/ (log 1000) (log x)))$/;"	f
+timed-prime-test	sicp/sicp1_2_6.scm	/^(define (timed-prime-test n)$/;"	f
+timed-prime-test	test.scm	/^(define (timed-prime-test n)$/;"	f
+tl2	sicp/2.scm	/^(define (tl2 tree acc)$/;"	f
+tolerance	sicp/1_3_3.scm	/^(define tolerance 0.000001)$/;"	f
+tolerance	sicp/1_3_4.scm	/^(define tolerance 0.00000001)$/;"	f
+top/bot	sicp/1_3_1.scm	/^(define (top\/bot n)$/;"	f
+topterm	sicp/1_3_1.scm	/^(define (topterm n)$/;"	f
+total-weight	sicp/2.scm	/^(define (total-weight mob)$/;"	f
+transpose	sicp/2.scm	/^(define (transpose mat)$/;"	f
+tree-map	sicp/2.scm	/^(define (tree-map f t)$/;"	f
+tri_s	stream.py	/^tri_s = make_ds(0, next_nat, triangular)$/;"	v
+triangular	stream.py	/^def triangular(nxt):$/;"	f
+triples	sicp/2.scm	/^(define (triples n)$/;"	f
+trysolve	shamir.scm	/^(define (trysolve points)$/;"	f
+two	sicp/2.scm	/^(define two (lambda (f) (lambda (x) (f (f x)))))$/;"	f
+u	sicp/constraint.scm	/^(define u (make-connector))$/;"	f
+uk-coins	sicp/2.scm	/^(define uk-coins (list 50 100 20 10 5 2 1 0.5))$/;"	f
+undiv	primes.scm	/^(define undiv$/;"	f
+unique-pairs	sicp/2.scm	/^(define (unique-pairs n)$/;"	f
+unroll	stream.py	/^def unroll(s, n):$/;"	f
+upper-bound	sicp/2.scm	/^(define upper-bound cdr)$/;"	f
+us-coins	sicp/2.scm	/^(define us-coins (list 50 25 10 5 1))$/;"	f
+v	sicp/constraint.scm	/^(define v (make-connector))$/;"	f
+val	sicp/2.scm	/^(define val car)$/;"	f
+w	sicp/constraint.scm	/^(define w (make-connector))$/;"	f
+width	sicp/2.scm	/^(define (width i)$/;"	f
+x	sicp/1_3_3.scm	/^(define x (fixed-point (average-damp thing) 2))$/;"	f
+x	sicp/1_3_3.scm	/^(define x (fixed-point thing 2))$/;"	f
+x	sicp/1_3_4.scm	/^(define x 10)$/;"	f
+x	sicp/constraint.scm	/^(define x (make-connector))$/;"	f
+x-point	sicp/2.scm	/^(define x-point car)$/;"	f
+y	sicp/constraint.scm	/^(define y (make-connector))$/;"	f
+y-point	sicp/2.scm	/^(define y-point cdr)$/;"	f
+zero	sicp/2.scm	/^(define zero (lambda (f) (lambda (x) x)))$/;"	f
